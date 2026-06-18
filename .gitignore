@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Vivado / FPGA toolchain
+*.xpr
+*.jou
+*.log
+*.str
+*.backup.jou
+*.backup.log
+*.runs/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.cache/
+*.xil/
+vivado_*.zip
+.hw_ila_*.ws
+usage_statistics_webtalk.*
+webtalk_*.backup.*
+*.pb
+*.wdf
+*.wcfg
+*.debug
+*.ltx
+vivado_pid*.str
+
+# HLS
+*.autopilot
+*.solution/
+*.tcl.shell
+
+# Xilinx IP
+*.xci
+*.dcp
+
+# Reports (generated)
+reports/*
+!reports/.gitkeep
+
+# OS
+desktop.ini
+
+# Golden reference files (large)
+*.so
+*.dll
+*.dylib

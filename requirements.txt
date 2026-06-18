@@ -1,0 +1,7 @@
+# PRNG-371 FPGA Verification Framework
+# No third-party dependencies required — Python standard library only.
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# Minimum Python version: 3.7

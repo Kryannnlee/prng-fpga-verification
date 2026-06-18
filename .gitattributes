@@ -1,0 +1,23 @@
+# Auto-detect text files, normalize to LF on commit
+* text=auto
+
+# Explicit types
+*.py       text eol=lf
+*.v        text eol=lf
+*.sv       text eol=lf
+*.tcl      text eol=lf
+*.sh       text eol=lf
+*.bat      text eol=crlf
+*.md       text eol=lf
+*.txt      text eol=lf
+*.h        text eol=lf
+*.cpp      text eol=lf
+*.c        text eol=lf
+*.json     text eol=lf
+*.yml      text eol=lf
+*.yaml     text eol=lf
+Makefile   text eol=lf
+LICENSE    text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+requirements.txt text eol=lf
