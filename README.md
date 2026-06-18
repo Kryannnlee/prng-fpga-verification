@@ -4,7 +4,7 @@
 
 [![Verify](https://github.com/USERNAME/REPO/actions/workflows/verify.yml/badge.svg)](https://github.com/USERNAME/REPO/actions/workflows/verify.yml)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![BER](https://img.shields.io/badge/BER-0.000000e+00-brightgreen)]()
 [![Board](https://img.shields.io/badge/board-ACZ702%20(Zynq--7020)-blue)]()
 
@@ -19,7 +19,7 @@ git clone <repo-url>
 cd prng_fpga_project
 ```
 
-Python 3.7+ is the only dependency. Verify with `python3 --version` (Linux/macOS) or `python --version` (Windows).
+Python 3.8+ is the only dependency. Verify with `python3 --version` (Linux/macOS) or `python --version` (Windows).
 
 ---
 
@@ -139,7 +139,7 @@ prng_fpga_project/
 ├── hls_src/                    # HLS C++ source + golden reference files
 ├── .gitignore
 ├── LICENSE                       # MIT
-├── requirements.txt              # Python 3.7+, stdlib only
+├── requirements.txt              # Python 3.8+, stdlib only
 ├── Makefile                    # make verify / test / validate / clean
 └── README.md
 ```
@@ -150,7 +150,7 @@ prng_fpga_project/
 
 | Requirement | Version | Notes |
 |-------------|---------|-------|
-| Python | 3.7+ | Standard library only (no pip packages needed) |
+| Python | 3.8+ | Standard library only (no pip packages needed) |
 | Vivado | 2024.1+ | Only required for ILA capture and bitstream generation |
 | Board | ACZ702 (XC7Z020) | JTAG-connected for FPGA validation |
 
